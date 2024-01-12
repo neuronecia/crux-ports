@@ -1,0 +1,16 @@
+# Description: Small and fast multi-platform web browser
+# URL: https://netsurf-browser.org
+# Maintainer: anton demchenko, dmchko at waifu dot club
+# Depends on: libjpeg-turbo curl openssl libpng libwebp p5-html-parser vim
+
+name=netsurf
+version=3.10
+release=1
+source=(https://download.netsurf-browser.org/netsurf/releases/source-full/$name-all-$version.tar.gz)
+
+build() {
+	cd $name-all-$version
+	make TARGET=gtk3 PREFIX=/usr -j1
+	make TARGET=gtk3 PREFIX=/usr DESTDIR=$PKG install
+	mv $PKG/usr/bin/netsurf-gtk3 $PKG/usr/bin/netsurf
+}

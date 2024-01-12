@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ports.pub
+RWTESNRKRPtmiMHrLKa8IcE4owLnUvXik8vc4tQsVleUPU3SV298uNAzDX/DUeoWtQF81OBy9boduFrcfPahVxtKwt9csBeylgU=
+SHA256 (Pkgfile) = bc0be3ea49a3018f10a5e0636903ee725649cf922dc1041555b306fbf1856406
+SHA256 (.footprint) = 66c5553f56309397cad34e9cd356be28ef0fe00589e249d96f668f90ef982fe6
+SHA256 (netsurf-all-3.10.tar.gz) = 495adf6b6614ce36fca6c605f7c321f9cb4a3df838043158122678ce2b3325b7
